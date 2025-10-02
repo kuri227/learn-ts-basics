@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext",
+    "outDir": "./dist" /* 追加 */,
+    "rootDir": "./src" /* 追加 */,
+    /* "types": [], // 削除 */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    /* "jsx": "react-jsx", // 削除 */
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  } /* ここにカンマをつけないとダメ!!! → */,
+  "include": ["src/**/*"] /* 追加 */
+}
