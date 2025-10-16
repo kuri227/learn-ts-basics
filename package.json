@@ -2,10 +2,12 @@
   "name": "learn-ts-basics",
   "version": "1.0.0",
   "type": "module",
-  
   "devDependencies": {
     "@types/node": "^24.6.2",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.18"
   }
 }
